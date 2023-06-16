@@ -1,0 +1,21 @@
+{
+  "name": "svglogos2go",
+  "version": "1.0.0",
+  "description": "Simple SVG logo creator",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "npm start"
+  },
+  "author": "Rachael Blasko",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.7"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
