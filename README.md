@@ -10,7 +10,6 @@ Watch the demo here: [https://youtu.be/HtrjOfTqCtk]
 1. [Usage](#usage)
 2. [Installation](#installation)
 3. [Test](#test)
-4. [Contribution](#contribution)
 ## Usage
   In a time crunch and need to whip up a quick and simple logo? Look no further than SVGlogos2go!
 ## Installation

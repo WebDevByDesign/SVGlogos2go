@@ -11,7 +11,7 @@ function generateSvg(res) {
   const centerX = 150;
   const centerY = 100;
 
-  // Generate SVG based on the shape and other properties
+    // Generate SVG based on the shape and other properties
   let svg = `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">`;
 
   if (shape === "Circle") {
@@ -21,6 +21,7 @@ function generateSvg(res) {
     // Center text in circle shape
     svg += `<text x="0" y="0" text-anchor="middle" dominant-baseline="middle" fill="${textColor}">${logoText}</text>`;
     svg += `</g>`;
+
   } else if (shape === "Triangle") {
     //Centertext on SVG logo for Triangle
     const triangleCenterX = (50 + 90 + 10) / 3;
@@ -31,8 +32,9 @@ function generateSvg(res) {
     // Center text in selected shape
     svg += `<text x="${triangleCenterX}" y="${triangleCenterY}" text-anchor="middle" dominant-baseline="middle" fill="${textColor}">${logoText}</text>`;
     svg += `</g>`;
+    
   } else if (shape === "Square") {
-    //Centertext on SVG logo for Triangle
+    //Center text on SVG logo for Triangle
     const squareCenterX = (50 + 90 + 10) / 3;
     const squareCenterY = (5 + 90 + 90) / 3;
     // Generate SVG for a square shape w/ <g> tag
